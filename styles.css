@@ -1,0 +1,25 @@
+body {
+    color: #787878;
+	
+        }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.gallery img {
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
